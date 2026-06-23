@@ -1,6 +1,5 @@
-def main():
-    print("Hello from air-qlt!")
+import logging
 
-
-if __name__ == "__main__":
-    main()
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
